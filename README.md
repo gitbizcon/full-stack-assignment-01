@@ -1,4 +1,4 @@
-### Node Express Practical Test
+### Full Stack Practical Test
 
 ## Requirements
 
