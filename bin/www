@@ -8,8 +8,8 @@ require('dotenv').config();
 var app = require('../app');
 var debug = require('debug')('demo:server');
 var http = require('http');
-var { connectAppAPIMongoDB } = require('../Database connection/mongoose.connection');
-var { connectToMySQL } = require('../Database connection/mySQL.connection');
+var { connectAppAPIMongoDB } = require('../db/mongoose.connection');
+var { connectToMySQL } = require('../db/mySQL.connection');
 
 /**
  * Get port from environment and store in Express.

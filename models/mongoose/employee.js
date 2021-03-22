@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const mongoose = require('../../Database connection/mongoose.connection').getAppAPIMongoDB()
+const mongoose = require('../../db/mongoose.connection').getAppAPIMongoDB()
 
 const employeeSchema = new mongoose.Schema({
     firstName: String,
