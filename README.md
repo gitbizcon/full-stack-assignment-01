@@ -54,13 +54,13 @@ Fields:
 
 - Forking this repo. Refer [this link](https://docs.gitlab.com/ee/gitlab-basics/fork-project.html) if you have no idea about how to fork a repo.
 - [Clone](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository) your forked repo into your system. And install project dependencies. Start doing your work. Along with your actual code, put together a short `README.md` file describing steps that we have to perform in order to get this project up and running.
-- copy .env.example content to .env file for setting up environment variables, which contains server and database related configrations, you can use mySQL or mongoDB as per convenience (Sample schema is defined in models directory, you can update existing schema if required) if choosen mySQL first create databse in mySQL
+- Copy .env.example content to .env file for setting up environment variables, which contains server and database related configrations, you can use mySQL or mongoDB as per convenience (Sample schema is defined in models directory, you can update existing schema if required) if choosen mySQL first create databse in mySQL
 
-- ### install dependencies
+- Install dependencies
 
   `npm install`
 
-- ### start server
+- Start server
 
   `npm start`
 
