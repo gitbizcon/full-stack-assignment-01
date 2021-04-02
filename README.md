@@ -9,8 +9,6 @@
 - For ReactJS Frontend, Create a new app using `create-react-app` cli command
 - For AngularJS Frontend, Create a new app using `ng new` cli command
 
-**Note:**
-Make sure you've generated SSH key(if not exists) and added it into your gitlab account. See [Create and add your SSH key pair](https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html).
 
 ## What you have to do?
 
@@ -52,7 +50,7 @@ Fields:
 
 ## Start by following steps
 
-- Forking this repo. Refer [this link](https://docs.gitlab.com/ee/gitlab-basics/fork-project.html) if you have no idea about how to fork a repo.
+- Fork this [repo](https://github.com/gitbizcon/full-stack-assignment-01). Refer [this link](https://docs.gitlab.com/ee/gitlab-basics/fork-project.html) if you have no idea about how to fork a repo.
 - [Clone](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository) your forked repo into your system. And install project dependencies. Start doing your work. Along with your actual code, put together a short `README.md` file describing steps that we have to perform in order to get this project up and running.
 - Copy .env.example content to .env file for setting up environment variables, which contains server and database related configrations, you can use mySQL or mongoDB as per convenience (Sample schema is defined in models directory, you can update existing schema if required) if choosen mySQL first create databse in mySQL
 
@@ -64,7 +62,9 @@ Fields:
 
   `npm start`
 
-- When you're done, create a Merge Request in this repo from your forked repo. Refer [this link](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) if you have no idea about how to submit a merge request.
+## How to Submit
+
+The source code should be accessible via a git repository or sent to us as a zip file, if possible including git history.
 
 And you're done! From there we'll take care of it and review your submission.
 
